@@ -33,6 +33,7 @@ app.configure('development', function(){
 
 // Routes
 app.get('/', routes.index);
+app.get('/notes', routes.index);
 app.get('/oauth', routes.oauth);
 app.get('/oauth_callback', routes.oauth_callback);
 app.get('/clear', routes.clear);
